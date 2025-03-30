@@ -56,6 +56,27 @@ The dashboard is structured to provide insights at multiple levels:
 
 ---
 
+## Data Model
+
+The data model follows a star schema with two fact tables and three supporting dimension tables:
+
+- **Fact Tables:**
+  - `fact_bookings` – Raw booking-level data
+  - `fact_aggregated_bookings` – Aggregated room-level data by date and hotel
+
+- **Dimension Tables:**
+  - `dim_date` – Calendar data (day, week, month)
+  - `dim_hotels` – Hotel metadata (property ID, name, city, category)
+  - `dim_rooms` – Room class and room ID
+
+All tables are connected through proper relationships using keys such as `property_id`, `room_category`, and `check_in_date`.
+
+### Data Model Diagram
+
+![Data Model](https://github.com/eshitakundu/PowerBI-Hospitality-Revenue-Insights/blob/main/Assets/data_model.png)
+
+---
+
 ## Features
 
 - Custom DAX measures for accurate and dynamic KPI calculation  
@@ -85,17 +106,5 @@ The final dashboard enables the revenue management team at AtliQ Grands to monit
 
 ---
 
-## Future Enhancements
-
-- Integration with live data sources for real-time reporting  
-- Forecasting occupancy and revenue using machine learning models  
-- Customer sentiment analysis based on reviews  
-- Automated alerts for unusual changes in realization or RevPAR  
-
----
-
 ## Dashboard Preview
 
-
-
----
