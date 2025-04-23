@@ -1,8 +1,8 @@
-# AtliQ Grands – Power BI Revenue Intelligence Dashboard
+# Power BI Revenue Intelligence Dashboard
 
 ## Project Overview
 
-AtliQ Grands is a luxury five-star hotel chain operating across India for over 20 years. Due to increasing competition and ineffective decision-making, the company has been experiencing a decline in both market share and revenue within the luxury/business hotel segment.
+A luxury five-star hotel chain operating across India for over 20 years. Due to increasing competition and ineffective decision-making, the company has been experiencing a decline in both market share and revenue within the luxury/business hotel segment.
 
 To enable data-driven decision-making, a revenue intelligence system was developed to analyze historical hotel performance and identify key areas for improvement. This project involved the creation of a structured and interactive Power BI dashboard, based on stakeholder requirements and industry-standard KPIs.
 
@@ -102,7 +102,7 @@ The dataset and dashboard mock-up were provided as part of a simulation designed
 
 ## Outcome
 
-The final dashboard enables the revenue management team at AtliQ Grands to monitor KPIs in real-time, track performance across various dimensions, and identify root causes for underperformance. The layered design allows stakeholders to explore both high-level summaries and detailed breakdowns efficiently.
+The final dashboard enables the revenue management team to monitor KPIs in real-time, track performance across various dimensions, and identify root causes for underperformance. The layered design allows stakeholders to explore both high-level summaries and detailed breakdowns efficiently.
 
 ---
 
